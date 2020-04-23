@@ -1,4 +1,31 @@
-$bg: #b2b2b2
+@import 'bourbon/bourbon'
+$bg: #2E3E45
+$fg: #F4DB9C
+
+/*
+ 2E3E45
+ 506263
+ 55B993
+ F4DB9C
+ EA7353
+*/
+
+$max-width: 750px
 
 body
   background: $bg
+  max-width: $max-width
+  margin: auto
+  text-decoration-color: $fg
+
+table
+  border: solid 1px
+  border-collapse: collapse
+  .th
+    font-style: oblique
+    font-weight: bold
+  .vh
+    font-style: oblique
+  td
+    border: solid 1px
+    width: 20px
